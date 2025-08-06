@@ -2,13 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import HelloMessage from './HelloMessage';
+// import User from './User';
 import reportWebVitals from './reportWebVitals';
+
+import Calculator from './Calculator';  
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  //  <User/>
+  // <App/>
   <React.StrictMode>
-    <App />
+    <App/>
+    <Calculator />
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
